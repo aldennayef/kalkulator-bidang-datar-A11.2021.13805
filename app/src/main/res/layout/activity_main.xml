@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator Bidang Datar"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="27dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Panjang/Alas/Diameter :"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/inputPAD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Satuan Meter"
+        android:inputType="textPersonName"
+        android:textSize="15sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="27dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Lebar/Tinggi :"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/inputLT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Satuan Meter"
+        android:inputType="textPersonName"
+        android:textSize="15sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/btnPersegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="persegi"
+        android:text="Persegi" />
+
+    <Button
+        android:id="@+id/btnSegitiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="segitiga"
+        android:text="Segitiga" />
+
+    <Button
+        android:id="@+id/btnLingkaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="lingkaran"
+        android:text="Lingkaran" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="27dp" />
+
+    <TextView
+        android:id="@+id/txtPAD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtLT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtLuas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtKeliling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp" />
+
+</LinearLayout>
